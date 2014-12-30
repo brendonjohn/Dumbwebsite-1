@@ -2,7 +2,7 @@
   (:require [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]))
 
-(defonce app-state (atom {:text "Hello Chestnut!"}))
+(defonce app-state (atom {:text "Hello sample site 1!"}))
 
 (defn main []
   (om/root
@@ -12,4 +12,4 @@
         (render [_]
           (dom/h1 nil (:text app)))))
     app-state
-    {:target (. js/document (getElementById "app"))}))
+    {:target (. js/document (getElementById "page"))}))
