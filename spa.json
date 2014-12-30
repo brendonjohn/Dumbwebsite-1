@@ -1,5 +1,9 @@
 {
   "version": "0.1.0",
+  "domains": [
+    "testsite.com",
+    "testsite1.com"
+  ],
   "assetsFolder": {
     "location": "public/",
     "requiredJavascript": [],
