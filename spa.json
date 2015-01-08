@@ -5,8 +5,10 @@
     "testsite1.com"
   ],
   "assetsFolder": {
-    "location": "public/",
-    "requiredJavascript": [],
+    "location": "samplesite/dist/",
+    "requiredJavascript": [
+      "js/dumb1.js"
+    ],
     "requiredStyling": []
   },
   "routes": [
