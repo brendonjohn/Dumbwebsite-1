@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "domains": [
-    "testsite.com",
+    "example.com",
     "testsite1.com"
   ],
   "assetsFolder": {
