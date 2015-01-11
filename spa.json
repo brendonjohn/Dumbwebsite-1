@@ -9,7 +9,8 @@
     "requiredJavascript": [
       "js/dumb1.js"
     ],
-    "requiredStyling": []
+    "requiredStyling": [],
+    "startCommand": "samplesite.core.main()"
   },
   "routes": [
     "/"
